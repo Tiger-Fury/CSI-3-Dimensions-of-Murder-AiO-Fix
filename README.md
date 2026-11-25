@@ -61,7 +61,7 @@ Delete the added launcher EXEs and use the original launch method. No installed 
 
 ## Source and building
 
-This repository contains the complete source for these generated launchers, not the original game's source code. The builders emit small native x86 PE executables directly using Python's standard library; Python is needed only to rebuild, not to play.
+This repository contains the complete source for these launchers, not the original game's source code. The builders emit small native x86 PE executables directly using Python's standard library; Python is needed only to rebuild, not to play.
 
 Run `python build.py` with Python 3. Outputs appear in `dist/Original`, `dist/Fit` and `dist/Fill`. The builder verifies that the resulting EXEs exactly match the release hashes in `build-manifest.json`. It does not run the game. The display builders retain the separate tested implementations for reproducibility.
 

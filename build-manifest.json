@@ -1,0 +1,14 @@
+{
+  "Original": {
+    "exe": "CSI3-NoCD.exe",
+    "sha256": "807bf785844a97218b7f87eb63febf256899eb31e892949e83a6c2666b17d715"
+  },
+  "Fit": {
+    "exe": "CSI3-Fit.exe",
+    "sha256": "4e5c3aeb1f23f2f1fd24bcf319e77900ef3bb765196088cf129a6b26792c21fc"
+  },
+  "Fill": {
+    "exe": "CSI3-Fill.exe",
+    "sha256": "f519c2792f133b1a798312d4699fad5871837169a8e0fe63c4ef47cee4f69ca2"
+  }
+}

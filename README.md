@@ -1,4 +1,4 @@
-# CSI: 3 Dimensions of Murder — AiO Fix
+# CSI: 3 Dimensions of Murder â€” AiO Fix
 
 **Made by Tiger Fury**
 
@@ -14,10 +14,20 @@ Get the ZIP for your preferred mode from [Releases](https://github.com/Tiger-Fur
 | Fit | Scales to the primary desktop while preserving a centred 4:3 picture, with black borders. |
 | Fill | Stretches the complete 4:3 camera view across the primary desktop, retaining the top and bottom of the picture. |
 
+## Screenshots
+
+### Fit
+
+![Fit mode with a centred 4:3 picture and black borders](assets/screenshots/csi3-fit.png)
+
+### Fill
+
+![Fill mode stretching the complete picture across the desktop](assets/screenshots/csi3-fill.png)
+
 ## Features
 
 - Standalone no-CD launchers using the installed game engine and game data.
-- Fit and Fill render internally at the enlarged game-window dimensions, improving the clarity of 3D scenes compared with enlarging an 800×600 frame.
+- Fit and Fill render internally at the enlarged game-window dimensions, improving the clarity of 3D scenes compared with enlarging an 800Ã—600 frame.
 - Fit has a dedicated black background window.
 - Fill preserves the complete camera view and adjusts both pixel-based picking paths to match the stretched picture.
 - Display changes apply in memory for that launcher session. Original game files remain untouched.
@@ -41,7 +51,7 @@ The launchers do not relocate or migrate saves. Saving and loading without admin
 
 Original, Fit and Fill were reported working during Windows 11 gameplay testing. Fit's borders, Fill's complete picture and final Fill mouse alignment were confirmed. Higher-resolution rendering and saving/loading without administrator rights were also reported working. Windows 10 has not been independently tested.
 
-The isolated startup/window tests used mocked APIs and a synthetic engine buffer, including desktop sizes from 800×600 to 3840×2160. Final Fill picking checks covered both pixel-ray callbacks at six horizontal positions across seven desktop sizes. These checks supplement user gameplay testing; they are not gameplay benchmarks or a guarantee for every GPU, resolution or game edition.
+The isolated startup/window tests used mocked APIs and a synthetic engine buffer, including desktop sizes from 800Ã—600 to 3840Ã—2160. Final Fill picking checks covered both pixel-ray callbacks at six horizontal positions across seven desktop sizes. These checks supplement user gameplay testing; they are not gameplay benchmarks or a guarantee for every GPU, resolution or game edition.
 
 The inspected t3.mll SHA-256 is `26e61a520afe71506fc549f4d0b58321708dfe8fd279a197232230eeac2e261a`. Fit and Fill validate the engine instructions they adjust and show an error if those sites do not match. Other engine revisions are untested.
 
